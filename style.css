@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.centered_main_page_element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task_row_wrapper {
   display: flex;
 }
 ul {
@@ -89,7 +89,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#new_task {
   width: 318px;
 }
 
@@ -129,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed_tasks label {
   text-decoration: line-through
   color: #888;
 }
