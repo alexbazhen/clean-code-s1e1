@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add_enter {
   display: flex;
@@ -117,7 +117,7 @@ input#add_task {
   width: 226px;
 }
 .item > .inp[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .icon {
   height: 2em;
@@ -130,18 +130,18 @@ input#add_task {
 
 /* Completed */
 #completed label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list .item .inp[type=text] {
-  display: none
+  display: none;
 }
 
 .list .item.edit_mode .inp[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .item.edit_mode label {
