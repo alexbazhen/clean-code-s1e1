@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.information {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.information img {
+.info img {
   width: 100%;
 }
-.information .more_information {
+.info .more_info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .information { 
+  .info { 
     text-align: center;
   }
 }
-.application_wrapper {
+.app_wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.add_group {
+.add_enter {
   display: flex;
 }
 ul {
@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="add_task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -129,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed_tasks label {
+ul#completed label {
   text-decoration: line-through
   color: #888;
 }
